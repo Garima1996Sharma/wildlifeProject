@@ -1,0 +1,437 @@
+*{
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    margin:0;
+    
+   background-image: url(images/squirrel.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body image{
+    opacity:100%;
+}
+#wrapper{
+    width: 80%;
+    margin: 0 210px 20px 160px;
+    background-color: #726e71a2;
+    border:2px solid rgba(143, 155, 177, 0.747);
+    box-shadow: 5px 5px 5px 2px rgba(233, 170, 77, 0.315);
+
+}
+
+
+
+/* header */
+ header{
+    background-image: url(Images/wildImage.jpg);
+    background-color: #cccccc;
+  height: 500px;
+  color: #FFFFFF;
+    font-family:Georgia, 'Times New Roman', Times, serif, serif; 
+    text-indent: 2.5em;
+    font-style: italic;
+    box-shadow: 2px 2px 2px black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border:darkblue dotted;
+  padding: 10px 10px 5px 100px;
+ }   
+ span{
+     font-size: 200%;
+     position: absolute;
+    top: 72%;
+     left: 0%;
+     right:0%;
+     bottom: 0%;
+     text-align: left;
+     background-color: rgba(22, 18, 14, 0.315);
+ }
+ #change{
+    font-size: 90%;
+    position: absolute;
+    color: #ebce2be7;
+   top: 1%;
+    left: 0%;
+    right:0%;
+    bottom: 85%;
+    text-align:left;
+    background-color: #b88f5138;
+ }
+ .coat{
+width:98%;
+height:215px;
+border:2px dotted rgb(90, 87, 82);
+padding:2%;
+ }
+ .fur{
+    width:40%;
+     padding:2%;
+     height:215px;
+    padding:2%;
+ }
+ .fur1{
+   
+     width:40%;
+     padding:2%;
+     height:215px;
+ }
+ .fur2{
+ 
+    padding:2%;
+    width:48%;
+    height:270px;
+}
+.fur3{
+  
+    padding:2%;
+    width:97%;
+    height:40%;
+}
+
+/* heading 1*/
+h1{
+    height: 500px;
+   
+    position: absolute;
+    top: -9%;
+    left: 0%;
+    right:0%;
+    bottom: 0%;
+    padding-top: 0px;
+    box-shadow:3px 3px 3px  rgb(34, 29, 10);
+    text-shadow:10px 10px 7px  rgb(156, 148, 148);
+    font-size: 350%;
+    color: white;
+    text-align: center;
+    background-color: rgba(22, 18, 14, 0.288);
+
+}
+/*main section */
+main{
+    margin-left: 15%;
+   font-size: 1.25em;
+   color: rgb(16, 47, 78);
+   font-family:cursive;
+   padding:5px;
+    margin-top:2px;
+
+    overflow:auto;
+  
+    background-color: rgba(206, 210, 235, 0.781);
+}
+#inside{
+
+    opacity: initial;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.color{
+    background-color: rgba(235, 162, 198, 0.315);
+}
+/* aside */
+aside{
+    float: right;
+    width: 28%;
+    background-color: #d8b7b700;
+    padding: 1em;
+
+} 
+
+/* nav */
+nav{
+    overflow:auto;
+    float: left;
+    width: 15%; 
+   
+  
+    font-weight: bold;
+    
+    background-color: rgba(169, 169, 169, 0.39);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+nav li{
+    padding: 5px;
+    text-align: center;
+}
+.button{
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 30px;
+    font-size: 1em;
+    display: block;
+
+}
+
+
+nav a{
+   
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    color:cornsilk;
+    border-bottom: 2px solid black;
+    background-color: #978282;
+    color: rgb(59, 6, 6);
+    background-image: url(images/grizzy-bear.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: left -50px;
+}
+nav a:link{
+    color:rgb(111, 146, 155);
+}
+nav a:visited{
+    color:#000066
+}
+nav a:hover{
+    color:lightsalmon;
+}
+.home{
+    color:rgb(100, 114, 100);
+}
+
+
+.save1{
+    width:100%;
+    height:400px;
+}
+  
+
+
+/* heading 3 */  
+  h3{
+      color:rgb(243, 119, 119);
+    font-size: 1.5em;
+  }
+
+.side1{
+     color:rgb(250, 245, 245);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: bold;
+     background-image: url(Images/tigerr.jfif);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     padding-left:5%;
+     padding-top:2%;
+     padding-bottom: 18%;;
+     padding-right:30%;
+     margin-top:5%;
+     margin-bottom: 5%;
+     list-style-type: none;
+   
+ }
+ #side{
+    
+     padding:0%;
+     text-decoration: none;
+ }
+
+ #habitat{
+     font-size: 3em;
+ }
+
+ /* heading 2 */
+ h2{
+     background-color: rgba(102, 95, 83, 0.322);
+ }
+
+ /* footer */
+ footer{
+    font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    color:rgb(68, 58, 58);
+    background-color: #dde6b6;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+ .ref{
+    text-align: left;
+ 
+}
+  
+  /*Responsive design media query */
+
+  
+@media only screen and (max-width: 1024px){
+    body{
+       margin:0%;
+       background-image: none;
+    }
+    
+     span{
+         font-size: 120%;
+         width:100%;
+         height:30%;
+         color:rgb(24, 70, 35);
+         background-color: rgba(179, 106, 33, 0.63);
+      }
+
+     #change{
+  display:none;
+ }
+h1{
+    height: 0%;
+ width:100%;
+    text-align: left;
+    background-color: rgba(22, 18, 14, 0.068);
+
+}
+
+aside{
+    float: none;
+    width: auto;
+    background-color: #7a5b5b6c;
+    padding: 1em;
+    margin:5%;
+
+} 
+   
+
+ 
+
+#images{
+    display: inline-block;
+    padding: 5%;
+    padding-top:2%; 
+}
+nav{
+    background-color: rgba(116, 149, 185, 0.726);
+    padding:1%;
+    float: none;
+    width: auto;
+   
+}
+nav ul{
+    margin-top:0%;
+    background-color: cornsilk;
+}
+nav li{
+   
+    display: inline-block;
+}
+.button{
+
+    padding: 1em;
+    border-radius: 0%;
+    font-size: 1.5em;
+    display:block;
+
+
+}
+
+.image{
+ 
+   margin-top: 0%;
+   margin-bottom: 1%;
+  margin-left:7%;
+    width:20%;
+    height:50%;
+}
+
+
+.image1{
+    margin-top: 0%;
+    margin-bottom: 1%;
+     width: 90%;
+      height: 50%; 
+ 
+ }
+
+ #tutu{
+     width:100%;
+ }
+nav a{
+    height:3%;
+    padding:20%;
+    border:2px dashed rgb(139, 50, 50);
+}
+nav a:link{
+    color:rgb(39, 83, 94);
+}
+nav a:visited{
+    color:#684738;
+}
+nav a:hover{
+    color:rgb(50, 58, 209);
+}
+.color{
+    background-color: rgb(211, 185, 185);
+}
+  
+   
+    main{
+background-color: rgba(142, 164, 235, 0.534);
+        margin-left:0;
+    }
+    h2{
+        background-color: wheat;
+    }
+    .color{
+        color:rgb(48, 47, 49);
+        background-color: rgba(250, 244, 244, 0.603);
+    }
+    #wrapper{
+        background-color: rgba(223, 207, 116, 0.534);
+        width:auto;
+        margin:auto;
+    }
+   
+}
+@media only screen and (max-width: 768px){
+    @media only screen and (max-width: 768px){
+        nav li{
+            padding:0%;
+            display: block;
+        }
+        nav ul{
+            padding:0;
+            
+        }
+        nav a{
+            text-align: left;
+            margin:0%;
+            padding: 0.2em;
+            border:1px solid black;
+      
+         
+          
+        }
+        .color{
+            background-color: rgba(255, 250, 240, 0.637);
+        }
+        h2{
+            font-weight: bold;
+            font-size: 2em;
+            background-color: honeydew;
+        }
+        aside{
+          
+            display: none;
+        }
+        main{
+            background-color: rgb(196, 192, 158);
+            margin-right: 0;
+        }
+       
+    .button{
+        background-position: center;
+        background-image: none;
+    }
+    }
+  
+
+}

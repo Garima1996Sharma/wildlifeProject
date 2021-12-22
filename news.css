@@ -1,0 +1,400 @@
+*{
+    box-sizing: border-box;
+}
+
+/* body section */
+body{
+    margin:0;
+   background-image: url(images/turtle.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body image{
+    opacity:100%;
+}
+#wrapper{
+    width: 80%;
+    margin: 0 210px 20px 160px;
+    background-color: #e9c3c39c;
+    border:2px solid rgba(36, 37, 39, 0.747);
+    box-shadow: 5px 5px 5px 2px rgba(66, 64, 62, 0.315);
+
+}
+
+/* header section  */
+ header{
+    background-image: url(Images/wildImage.jpg);
+    background-color: #cccccc;
+  height: 500px;
+  color: #FFFFFF;
+    font-family:Georgia, 'Times New Roman', Times, serif, serif; 
+    text-indent: 2.5em;
+    font-style: italic;
+    box-shadow: 2px 2px 2px black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border:darkblue dotted;
+  padding: 10px 10px 5px 100px;
+ }   
+ span{
+     font-size: 200%;
+     position: absolute;
+    top: 72%;
+     left: 0%;
+     right:0%;
+     bottom: 0%;
+     text-align: left;
+     background-color: rgba(22, 18, 14, 0.315);
+ }
+ #change{
+    font-size: 90%;
+    position: absolute;
+    color: #ebce2be7;
+   top: 1%;
+    left: 0%;
+    right:0%;
+    bottom: 85%;
+    text-align:left;
+    background-color: #b88f5138;
+ }
+
+ /* heading 1  */
+h1{
+    height: 500px;
+   
+    position: absolute;
+    top: -9%;
+    left: 0%;
+    right:0%;
+    bottom: 0%;
+    padding-top: 0px;
+    box-shadow:3px 3px 3px  rgb(34, 29, 10);
+    text-shadow:10px 10px 7px  rgb(156, 148, 148);
+    font-size: 350%;
+    color: white;
+    text-align: center;
+    background-color: rgba(22, 18, 14, 0.288);
+
+}
+
+/* main section */
+main{
+    margin-left: 15%;
+   font-size: 1.25em;
+   color: rgb(16, 47, 78);
+   font-family:cursive;
+   padding:5px;
+    margin-top:2px;
+
+    overflow:auto;
+  
+    background-color: rgba(70, 69, 56, 0.829);
+}
+#inside{
+
+    opacity: initial;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+p{
+    background-color: rgba(213, 243, 247, 0.897);
+    padding:2%;
+   
+}
+
+
+/* nav section  */
+nav{
+    overflow:auto;
+    float: left;
+    width: 20%; 
+   
+  
+    font-weight: bold;
+    
+    background-color: rgba(73, 69, 69, 0.342);
+}
+ 
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+nav li{
+    padding: 5px;
+    text-align: center;
+}
+.button{
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 30px;
+    font-size: 1em;
+    display: block;
+
+}
+ 
+nav a{
+   
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    color:cornsilk;
+    border-bottom: 2px solid black;
+    background-color: #978282;
+    color: rgb(59, 6, 6);
+    background-image: url(images/grizzy-bear.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: left -50px;
+}
+nav a:link{
+    color:rgb(111, 146, 155);
+}
+nav a:visited{
+    color:#000066
+}
+nav a:hover{
+    color:lightsalmon;
+}
+.home{
+    color:rgb(100, 114, 100);
+}
+
+
+
+
+ /* for footer section */
+  footer{
+    font-size: 100%;
+    text-align: center;
+    padding: 10px;
+    color:rgb(68, 58, 58);
+    background-color: #dde6b6;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.ref{
+    text-align: left;
+ 
+}
+ 
+.click{
+    background-color: wheat;
+    color:rgb(13, 61, 61);
+    width:90%;
+    margin:5%;
+    border: 2px dotted black;
+    padding:10%;
+}
+form {
+    min-width: 200px;
+    padding:1%;
+    margin-left:1%;
+    background-color: #eaeaeac5; 
+    font-family: Arial, sans-serif;
+    padding: 1px;
+  }
+  select{
+      width:96%;
+      height:300px;
+      padding:1%;
+      margin: 2%;
+  }
+  #news{
+      font-size: 1em;
+    width:95%;
+}
+  option{
+      padding:1%;
+      color:rgb(93, 104, 104);
+      font-size: 1.25em;
+      font-weight: bold;
+  }
+  #news{
+      color:rgb(63, 62, 62);
+     font-size: bold;
+     font-size: 1.5em;
+      margin:2%;
+      padding:1%;
+  }
+ h3{
+     background-color: whitesmoke;
+
+ }
+ #omg{
+     width:100%;
+
+ }
+
+  /*Responsive design media query */
+
+  
+@media only screen and (max-width: 1024px){
+    body{
+       margin:0%;
+       background-image: none;
+    }
+    
+     span{
+         font-size: 120%;
+         width:100%;
+         height:30%;
+         color:rgb(24, 70, 35);
+         background-color: rgba(179, 106, 33, 0.63);
+      }
+
+     #change{
+  display:none;
+ }
+h1{
+    height: 0%;
+ width:100%;
+    text-align: left;
+    background-color: rgba(22, 18, 14, 0.068);
+
+}
+
+aside{
+    float: none;
+    width: auto;
+    background-color: #7a5b5b6c;
+    padding: 1em;
+    margin:5%;
+
+} 
+  
+  
+ 
+
+#images{
+    display: inline-block;
+    padding: 5%;
+    padding-top:2%; 
+}
+nav{
+    background-color: rgba(116, 149, 185, 0.726);
+    padding:1%;
+    float: none;
+    width: auto;
+   
+}
+nav ul{
+    margin-top:0%;
+    background-color: cornsilk;
+}
+nav li{
+   
+    display: inline-block;
+}
+.button{
+
+    padding: 1em;
+    border-radius: 0%;
+    font-size: 1.5em;
+    display:block;
+
+
+}
+
+.image{
+ 
+   margin-top: 0%;
+   margin-bottom: 1%;
+  margin-left:7%;
+    width:20%;
+    height:50%;
+}
+
+
+.image1{
+    margin-top: 0%;
+    margin-bottom: 1%;
+     width: 90%;
+      height: 50%; 
+ 
+ }
+
+ 
+nav a{
+    height:3%;
+    padding:20%;
+    border:2px dashed rgb(139, 50, 50);
+}
+nav a:link{
+    color:rgb(39, 83, 94);
+}
+nav a:visited{
+    color:#684738;
+}
+nav a:hover{
+    color:rgb(50, 58, 209);
+}
+
+  
+   
+    main{
+background-color: rgba(27, 185, 190, 0.198);
+        margin-left:0;
+    }
+    #wrapper{
+        background-color: rgba(163, 143, 163, 0.692);
+        width:auto;
+        margin:auto;
+    }
+   #news{
+       width:95%;
+   }
+}
+@media only screen and (max-width: 768px){
+    @media only screen and (max-width: 768px){
+        nav li{
+            padding:0%;
+            display: block;
+        }
+        nav ul{
+            padding:0;
+            
+        }
+        nav a{
+            text-align: left;
+            margin:0%;
+            padding: 0.2em;
+            border:1px solid black;
+      
+         
+          
+        }
+        #news{
+            font-size: 1em;
+            width:98%;
+            height:200px;
+        }
+        aside{
+          
+            display: none;
+        }
+        main{
+            background-color: rgb(216, 216, 191);
+            margin-right: 0;
+        }
+        form{
+            width:98%;
+        }
+       
+    .button{
+        background-position: center;
+        background-image: none;
+    }
+    }
+  p{
+      background-color: rgba(0, 128, 128, 0.13);
+  }
+
+}
